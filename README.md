@@ -36,10 +36,10 @@ The snow effect can be controlled by executing the command **`aSocketSnow.comman
 
 The following can be passed as arguments to the command, enacting the corresponding effects:
 
-**`clear`** - Clears all snowflakes from the DOM and controller.
+**`clear`** - Clear all snowflakes from the DOM and controller.
 
-**`spawn`** - Spawns a new snowflake.
+**`spawn`** - Spawn a new snowflake.
 
-**`start`** - Used to start the snowflake controller animation/creation flow if stopped.
+**`start`** - Start the snowflake controller animation/creation flow if not already active.
 
-**`stop`** - Stops the snowflake controller animation/creation flow.
+**`stop`** - Stop the snowflake controller animation/creation flow.

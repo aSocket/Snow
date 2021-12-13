@@ -1,5 +1,5 @@
 <p align="center">  
-	<a target="_blank" href="https://aSocket.net">
+	<a href="https://aSocket.net">
 		<img src="https://i.imgur.com/f0hofbX.png">
 	</a>
 </p>
@@ -22,7 +22,7 @@
 The snow effect can be easily customized via the configuration object.
 ```js
 {
-    'LIMIT': 20, // The maximum number of snowflakes to create.
+	'LIMIT': 20, // The maximum number of snowflakes to create.
 	'BLUR': 1, // The filter blur value.
 	'FALL_RATE': 5, // The rate at which snowflakes fall.
 	'SWAY_RATE': 1, // The rate at which snowflakes sway.
@@ -31,10 +31,10 @@ The snow effect can be easily customized via the configuration object.
 *An unlimited amount of layers can be added to the configuration.*
 
 # Control
-The snow effect can be controlled by executing the command **`aSocketSnow.command(cmd)`**.
+The snow effect can be controlled by executing the command **`aSocketSnow.command(cmd)`**.<br>
 *(This can be utilized via a user preferences menu, toggle button, etc.)*
 
-The following arguments can be passed to the command to enact the corresponding effects:
+The following can be passed as arguments to the command, enacting the corresponding effects:
 
 **`clear`** - Clears all snowflakes from the DOM and controller.
 

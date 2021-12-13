@@ -1,0 +1,35 @@
+/* NOTE: This file is not required to deploy snow. */
+
+body {
+    background-color: #171717;
+    color: #e8e8e9;
+    font-family: 'Nunito';
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: calc(100vh - 50px);
+}
+
+img {
+    width: 100px;
+}
+
+#title {
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #e8e8e9;
+    transition:.5s;
+    text-decoration: none;
+}
+
+a:hover { 
+    color:#c9b670; 
+}

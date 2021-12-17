@@ -4,7 +4,7 @@
  * @name snow
  * @desc Create a snow effect on the web.
  * 
- * Last Updated: 12/13/21
+ * Last Updated: 12/17/21
  * Last Edit By: tfannin@asocket.net
  */
 

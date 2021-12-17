@@ -356,4 +356,4 @@ class Snowflake {
 }
 
 // On window load, call aSocketSnow main.
-window.onload = aSocketSnow.main;
+window.addEventListener("load", aSocketSnow.main);
